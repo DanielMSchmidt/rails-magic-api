@@ -7,6 +7,9 @@ gem 'spring', :group => :development
 gem 'pg'
 gem 'foreman'
 gem 'puma'
+gem 'websocket-rails'
+gem 'rails_12factor', group: :production
+gem 'uuid'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
